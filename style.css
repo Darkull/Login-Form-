@@ -15,11 +15,16 @@ body {
   align-items: center;
   min-height: 100vh;
   background: url("img.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .wrapper {
   width: 42rem;
-  background-color: purple;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2rem);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   color: #fff;
   border-radius: 1rem;
   padding: 3rem 4rem;
