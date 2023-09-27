@@ -12,6 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 100vh;
   background: url("img.jpg") no-repeat;
@@ -104,6 +105,15 @@ body {
   font-size: 1.6rem;
   font-weight: 600;
   color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7a44d7;
+  color: #fff;
+}
+.btn:active {
+  background-color: #4e25a9;
 }
 
 .register-link {
@@ -120,4 +130,27 @@ body {
 
 .register-link p a:hover {
   text-decoration: underline;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  color: #fff;
+  margin-top: 10rem;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+footer p a:hover {
+  color: #007bff;
+}
+footer p a:active {
+  color: #9775fa;
 }
